@@ -5,6 +5,9 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Semaphore;
 
 /**
+ * Consider SemaphoreTrainStationExample as a shared resource between threads. It's like an really live. One train
+ * station is shared/managed by many traffic controllers.
+ * 
  * Semaphore simple example based on a train station. Semaphore acts like a station witch allows to park and release
  * trains.
  *
