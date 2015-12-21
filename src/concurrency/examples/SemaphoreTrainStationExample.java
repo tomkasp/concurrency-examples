@@ -21,7 +21,7 @@ import java.util.concurrent.Semaphore;
  */
 public class SemaphoreTrainStationExample {
 
-    public final Semaphore semaphoreStation = new Semaphore(2, true);
+    public final Semaphore semaphoreStation = new Semaphore(1, true);
 
     Queue<Train> trains = new ArrayBlockingQueue<Train>(10);
 
