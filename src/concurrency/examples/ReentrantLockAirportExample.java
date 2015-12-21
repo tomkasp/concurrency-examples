@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * <p/>
  * Think about ReentrantLock and Lock interface as a more sophisticated version of a synchronization.
  * Below you can find really simple example how to use it. It's a airport example when planes can take down
- * in order. There is only one airstrip so only one thread can runs at once. 
+ * in order. There is only one airstrip so only one thread can runs at once.
  *
  * When you use method lock on your resource from a Lock interface it acquires a lock on that resource
  * (in our case ReentrantLockAirportExample) for a thread which tried to run the method.
