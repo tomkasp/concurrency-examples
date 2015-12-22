@@ -13,23 +13,26 @@ import java.util.concurrent.locks.ReentrantLock;
  * When you create a Condition object you need to use factory method from the Lock interface - newCondition()
  * Condition objects cooperate strongly with the Lock object.
  */
-public class ReentrantLockAirportFullExampl {
+public class ReentrantLockAirportFullExample {
 
     public static final int MAX_SIZE = 10;
+
     List<Object> plainsContainer = new ArrayList<>();
     Lock lock = new ReentrantLock();
     Condition takeDownCondition;
     Condition takeOffCondition;
 
-    public ReentrantLockAirportFullExampl() {
+    public ReentrantLockAirportFullExample() {
         takeDownCondition = lock.newCondition();
         takeOffCondition = lock.newCondition();
     }
 
     public void takeDown() {
+        System.out.printf("attempt take down for thread: %s", Thread.currentThread().getName());
         lock.lock();
         try {
             if (plainsContainer.size() == MAX_SIZE) {
+                System.out.printf("container is full for thread: %s", Thread.currentThread().getName());
                 takeDownCondition.await();
             }
             plainsContainer.add(new Object());
@@ -57,7 +60,4 @@ public class ReentrantLockAirportFullExampl {
 
         }
     }
-
-
-
 }
