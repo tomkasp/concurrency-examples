@@ -28,16 +28,16 @@ public class ReentrantLockAirportFullExample {
     }
 
     public void takeDown() {
-        System.out.printf("attempt take down for thread: %s", Thread.currentThread().getName());
+        System.out.printf("Attempt take down for thread: %s \r\n", Thread.currentThread().getName());
         lock.lock();
         try {
             if (plainsContainer.size() == MAX_SIZE) {
-                System.out.printf("container is full for thread: %s", Thread.currentThread().getName());
+                System.out.printf("Container is full for thread: %s \r\n", Thread.currentThread().getName());
                 takeDownCondition.await();
             }
+            System.out.printf("Take down done by thread: %s \r\n", Thread.currentThread().getName());
             plainsContainer.add(new Object());
             takeOffCondition.signalAll();
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -46,18 +46,21 @@ public class ReentrantLockAirportFullExample {
     }
 
     public void takeOff() {
+        System.out.printf("Attempt take off for thread: %s \r\n", Thread.currentThread().getName());
         lock.lock();
         try {
             if (plainsContainer.size() == 0) {
+                System.out.printf("Container is empty for thread: %s \r\n", Thread.currentThread().getName());
                 takeOffCondition.await();
             }
+            System.out.printf("Take off done by thread: %s \r\n", Thread.currentThread().getName());
             plainsContainer.remove(plainsContainer.size() - 1);
             takeDownCondition.signalAll();
 
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-
+            lock.unlock();
         }
     }
 }

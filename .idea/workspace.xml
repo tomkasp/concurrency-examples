@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="613a7d75-d428-4ee1-ba6f-789347926de2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExampl.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,70 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SemaphoreMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-              <folding>
-                <element signature="e#345#601#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#1032#1288#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatchExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/CountDownLatchExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReentrantLockAirportExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/ReentrantLockAirportExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReentrantLockAirportFullExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerTakeDownJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24475524">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -109,37 +49,32 @@
         <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding />
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <file leaf-file-name="ReentrantLockAirportFullExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-              <folding />
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <file leaf-file-name="ControllerTakeDownJob.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.962963">
-              <caret line="310" column="9" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemaphoreTrainStationExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.13986014">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -418,10 +353,11 @@
         <option value="$PROJECT_DIR$/src/concurrency/examples/ReentrantLockAirportExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/ReentrantLockAirportFullExampl.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerJob.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExampl.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" />
       </list>
     </option>
   </component>
@@ -551,13 +487,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AirportMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="SemaphoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -606,6 +544,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="concurrency.examples.AirportMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tomkasp" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrency.examples.lockfullexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="concurrency.examples.lockfullexample.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1023,16 +981,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
       <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
       <item index="2" class="java.lang.String" itemvalue="Application.AirportMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.AirportMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AirportMain" />
         <item index="2" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreMain" />
       </list>
     </recent_temporary>
   </component>
@@ -1046,12 +1006,12 @@
       <created>1450535708359</created>
       <option name="number" value="Default" />
       <updated>1450535708359</updated>
-      <workItem from="1450535715256" duration="12558000" />
+      <workItem from="1450535715256" duration="14787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12558000" />
+    <option name="totallyTimeSpent" value="14787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1059,12 +1019,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1111,25 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/AirportMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.962963">
-          <caret line="310" column="9" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1140,7 +1081,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.33333334">
           <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding />
         </state>
@@ -1167,13 +1108,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/AirportMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="333" column="9" selection-start-line="333" selection-start-column="9" selection-end-line="333" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,23 +1140,36 @@
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24475524">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13986014">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,8 @@
 package concurrency.examples.lockfullexample;
 
 /**
- * Created by tomkasp on 22/12/15.
+ *
+ * 
  */
 public class ControllerTakeDownJob implements Runnable {
 
@@ -15,7 +16,6 @@ public class ControllerTakeDownJob implements Runnable {
     @Override
     public void run() {
 
-        System.out.printf("Running thread %s", Thread.currentThread().getName());
         reentrantLockAirportExample.takeDown();
 
     }

@@ -1,20 +1,18 @@
 package concurrency.examples.lockfullexample;
 
-import concurrency.examples.ReentrantLockAirportExample;
-
 /**
- * Created by tomkasp on 22/12/15.
+ *
  */
 public class ControllerTakeOffJob implements Runnable {
 
-    private final ReentrantLockAirportExample reentrantLockAirportExample;
+    private final ReentrantLockAirportFullExample reentrantLockAirportExample;
 
-    public ControllerTakeOffJob(ReentrantLockAirportExample reentrantLockAirportExample) {
+    public ControllerTakeOffJob(ReentrantLockAirportFullExample reentrantLockAirportExample) {
         this.reentrantLockAirportExample = reentrantLockAirportExample;
     }
 
     @Override
     public void run() {
-
+        reentrantLockAirportExample.takeOff();
     }
 }
