@@ -12,6 +12,12 @@ import java.util.concurrent.locks.ReentrantLock;
  * As an example we will use again Airport but this time more advanced use case.
  * When you create a Condition object you need to use factory method from the Lock interface - newCondition()
  * Condition objects cooperate strongly with the Lock object.
+ *
+ * This example contains two methods
+ * takeDown()
+ * takeOff()
+ *
+ * which simulates takeOff and take down of plains.
  */
 public class ReentrantLockAirportFullExample {
 

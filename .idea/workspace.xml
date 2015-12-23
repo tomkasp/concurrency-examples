@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="613a7d75-d428-4ee1-ba6f-789347926de2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantLockAirportFullExample.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReentrantLockAirportFullExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.43644717">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerTakeDownJob.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ControllerTakeDownJob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.114854515">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
               <folding />
             </state>
@@ -359,9 +359,9 @@
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerJob.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExampl.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/Main.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
       </list>
     </option>
   </component>
@@ -1002,12 +1002,12 @@
       <option name="number" value="Default" />
       <updated>1450535708359</updated>
       <workItem from="1450535715256" duration="14787000" />
-      <workItem from="1450883134623" duration="728000" />
+      <workItem from="1450883134623" duration="951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15515000" />
+    <option name="totallyTimeSpent" value="15738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1160,16 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeOffJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1183,9 +1173,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerTakeDownJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.114854515">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43644717">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
