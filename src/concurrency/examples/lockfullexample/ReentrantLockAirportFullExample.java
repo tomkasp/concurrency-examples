@@ -16,8 +16,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * This example contains two methods
  * takeDown()
  * takeOff()
- *
  * which simulates takeOff and take down of plains.
+ *
  */
 public class ReentrantLockAirportFullExample {
 
@@ -33,6 +33,13 @@ public class ReentrantLockAirportFullExample {
         takeOffCondition = lock.newCondition();
     }
 
+    /**
+     * When plainsContainer is full await method is executed on a takeDownCondition which puts
+     * all threads which try to execute it into a sleep state. On the other side when takeOff method runs
+     * line takeDownCondition.signalAll() sleeping threads are notify about it and try to execute takeDown method
+     * again.
+     *
+     */
     public void takeDown() {
         System.out.printf("Attempt take down for thread: %s \r\n", Thread.currentThread().getName());
         lock.lock();
@@ -51,6 +58,11 @@ public class ReentrantLockAirportFullExample {
         }
     }
 
+    /**
+     * takeOff method works in a oposite way to the takeDown. When plainsContainer is empty it means that there are
+     * no more plains to take off and next all threads which try to execute it are delegate to the sleep state.
+     *Only takeOffCondition.signalAll(); from a takeDown method can awake them.
+     */
     public void takeOff() {
         System.out.printf("Attempt take off for thread: %s \r\n", Thread.currentThread().getName());
         lock.lock();
