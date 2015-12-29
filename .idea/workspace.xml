@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="613a7d75-d428-4ee1-ba6f-789347926de2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/GettingThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/GettingThread.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,14 +41,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BlockingQueueSimpleExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlockingQueueSimpleExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7529138">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TakingThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddingThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockingQueue.java" pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22843823">
+              <caret line="229" column="73" selection-start-line="229" selection-start-column="73" selection-end-line="229" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -334,9 +366,10 @@
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ReentrantLockAirportFullExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/BlockingQueueExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/SimpleUsageExample.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/GettingThread.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/GettingThread.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" />
       </list>
     </option>
@@ -1022,12 +1055,12 @@
       <option name="number" value="Default" />
       <updated>1450535708359</updated>
       <workItem from="1450535715256" duration="14787000" />
-      <workItem from="1450883134623" duration="5802000" />
+      <workItem from="1450883134623" duration="7415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20589000" />
+    <option name="totallyTimeSpent" value="22202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1184,26 +1217,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034965035">
           <caret line="115" column="6" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/GettingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48951048">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1242,21 +1259,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java">
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6993007">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7529138">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22843823">
+          <caret line="229" column="73" selection-start-line="229" selection-start-column="73" selection-end-line="229" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
