@@ -3,9 +3,10 @@ package concurrency.examples.blockingqueuexample;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * Simple usage of get and put methods from a BlockingQueue.
+ * Simple usage of put method from a BlockingQueue.
+ * put method tries to put element into the queue. When there is no free space
+ * it makes current thread to sleep.
  */
-
 public class AddingThread implements Runnable {
 
     private final BlockingQueue<Object> blockingQueue;

@@ -4,16 +4,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by tomkasp on 28/12/15.
  * This is a real life example how to use blocking queue implementation.
  */
 public class BlockingQueueSimpleExample {
-
-    /**
-     * Blocking queue summary
-     * put(E e) insert element into tail of the function - wait for a specific space if it's necessary.
-     * ge
-     */
 
     public static void main(String[] args) throws InterruptedException {
         LinkedBlockingQueue linkedBlockingQueue = new LinkedBlockingQueue(5);
@@ -22,16 +15,15 @@ public class BlockingQueueSimpleExample {
         Thread puttingThreads[] = new Thread[MAX_THREDS];
         Thread takingThreads[] = new Thread[MAX_THREDS];
 
-
         /**
-         * Adding threads
+         * Putting threads
          */
         for (int i = 0; i < MAX_THREDS; i++) {
             puttingThreads[i] = new Thread(new AddingThread(linkedBlockingQueue));
         }
 
         /**
-         * Getting threads
+         * Taking threads
          */
         for (int i = 0; i < MAX_THREDS; i++) {
             takingThreads[i] = new Thread(new TakingThread(linkedBlockingQueue));

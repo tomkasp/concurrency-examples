@@ -3,7 +3,9 @@ package concurrency.examples.blockingqueuexample;
 import java.util.concurrent.BlockingQueue;
 
 /**
- *
+ * Simple usage of take method from a BlockingQueue.
+ * take method tries to take element from the queue. When there are no elements inside queue
+ * it makes current thread to sleep.
  */
 public class TakingThread implements Runnable{
 
