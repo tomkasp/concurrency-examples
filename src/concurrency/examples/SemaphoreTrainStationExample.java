@@ -16,6 +16,7 @@ import java.util.concurrent.Semaphore;
  * is grater than zero.
  *
  * Semaphore based methods:
+ * 
  * acquire() - attempt to acquire a permit (permit is a value which is set when semaphore is constructed)
  * release()
  */

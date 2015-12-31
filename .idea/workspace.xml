@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="613a7d75-d428-4ee1-ba6f-789347926de2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java" afterPath="$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java" />
     </list>
     <ignored path="concurrency.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,15 +51,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TakingThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TakingThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24475524">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding>
                 <element signature="e#435#436#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreTrainStationExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17482518">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -365,7 +383,6 @@
         <option value="$PROJECT_DIR$/src/concurrency/examples/SemaphoreMain.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/ReentrantLockExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/AirportMain.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/ReentrantLockAirportExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/ReentrantLockAirportFullExampl.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/lockfullexample/ControllerJob.java" />
@@ -381,6 +398,7 @@
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/BlockingQueueSimpleExample.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/AddingThread.java" />
         <option value="$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java" />
       </list>
     </option>
   </component>
@@ -1043,12 +1061,12 @@
       <option name="number" value="Default" />
       <updated>1450535708359</updated>
       <workItem from="1450535715256" duration="14787000" />
-      <workItem from="1450883134623" duration="8608000" />
+      <workItem from="1450883134623" duration="9349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23395000" />
+    <option name="totallyTimeSpent" value="24136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1141,31 +1159,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#345#601#0" expanded="false" />
-            <element signature="e#600#601#0" expanded="false" />
-            <element signature="e#1032#1288#0" expanded="false" />
-            <element signature="e#1287#1288#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,12 +1274,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/examples/blockingqueuexample/TakingThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24475524">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
             <element signature="e#435#436#0" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrency/examples/SemaphoreTrainStationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17482518">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
